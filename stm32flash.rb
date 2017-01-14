@@ -4,7 +4,7 @@ class Stm32flash < Formula
   homepage "https://code.google.com/p/stm32flash/"
   version "20160211"
   url "https://sourceforge.net/projects/stm32flash/files/stm32flash-0.5.tar.gz/download"
-  sha1 "a193e5ab22bbad89b3d80e7fa8d84adf34a91713"
+  sha256 "97aa9422ef02e82f7da9039329e21a437decf972cb3919ad817f70ac9a49e306"
 
   def install
     system "make"
